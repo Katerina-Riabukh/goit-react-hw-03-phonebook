@@ -26,6 +26,8 @@ export class Form extends Component {
     this.setState({ name: '', number: '' })
   }
 
+
+
   render() {
 
     return (<FORM onSubmit={this.handleSubmitForm} >
